@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mesh {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(15, 118, 110);
+  background-image: radial-gradient(
+      at 21% 72%,
+      rgb(71, 85, 105) 0,
+      transparent 62%
+    ),
+    radial-gradient(at 35% 89%, rgb(244, 63, 94) 0, transparent 74%),
+    radial-gradient(at 76% 69%, rgb(244, 63, 94) 0, transparent 94%),
+    radial-gradient(at 33% 61%, rgb(254, 205, 211) 0, transparent 45%),
+    radial-gradient(at 86% 64%, rgb(131, 24, 67) 0, transparent 79%),
+    radial-gradient(at 6% 43%, rgb(59, 130, 246) 0, transparent 23%);
+  background-attachment: fixed;
+}

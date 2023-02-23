@@ -7,7 +7,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="mesh">{children}</body>
+      <body className="mesh2">{children}</body>
     </html>
   );
 }

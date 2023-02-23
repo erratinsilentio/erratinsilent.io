@@ -20,3 +20,22 @@
     radial-gradient(at 6% 43%, rgb(59, 130, 246) 0, transparent 23%);
   background-attachment: fixed;
 }
+
+.mesh2 {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-color: rgb(154, 52, 18);
+  background-image: radial-gradient(
+      at 57% 83%,
+      rgb(233, 213, 255) 0,
+      transparent 83%
+    ),
+    radial-gradient(at 30% 80%, rgb(2, 132, 199) 0, transparent 51%),
+    radial-gradient(at 34% 7%, rgb(107, 114, 128) 0, transparent 97%),
+    radial-gradient(at 45% 40%, rgb(251, 207, 232) 0, transparent 50%),
+    radial-gradient(at 69% 65%, rgb(28, 25, 23) 0, transparent 2%),
+    radial-gradient(at 88% 40%, rgb(245, 208, 254) 0, transparent 36%);
+}

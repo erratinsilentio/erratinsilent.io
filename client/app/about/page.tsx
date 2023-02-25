@@ -1,5 +1,6 @@
 import { AboutPageOne } from "@/components/about/page1/PageOne";
 import { AboutPageTwo } from "@/components/about/page2/PageTwo";
+import { BackArrow } from "@/components/other/BackArrow";
 import { Montserrat } from "@next/font/google";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -12,6 +13,7 @@ export default function About() {
       </p>
       <AboutPageOne />
       <AboutPageTwo />
+      <BackArrow />
     </main>
   );
 }

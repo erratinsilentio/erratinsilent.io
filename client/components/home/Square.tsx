@@ -11,7 +11,7 @@ export const Square = () => {
       initial={{ width: "100vh", height: "100vh" }}
       whileInView={{ width: "40vh", height: "40vh" }}
       transition={{ duration: 0.5 }}
-      className="z-50 bg-zinc-900 p-5 text-3xl text-rose-100 duration-300 peer-hover:-translate-x-24"
+      className="z-50 bg-zinc-900 p-8 text-3xl text-zinc-100 duration-300 peer-hover:-translate-x-24"
     >
       <p>
         {junior.map((letter, index) => (
@@ -25,7 +25,7 @@ export const Square = () => {
           </motion.span>
         ))}
       </p>
-      <p>
+      <p className="my-1">
         {frontend.map((letter, index) => (
           <motion.span
             key={index}

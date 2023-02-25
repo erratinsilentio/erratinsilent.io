@@ -1,4 +1,5 @@
 import "../styles/output.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="bg-zinc-900">{children}</body>
+      <body className={`bg-zinc-900 `}>{children}</body>
     </html>
   );
 }

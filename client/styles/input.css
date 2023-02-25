@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .mesh {
   margin: 0;
   padding: 0;
@@ -38,4 +42,46 @@
     radial-gradient(at 45% 40%, rgb(251, 207, 232) 0, transparent 50%),
     radial-gradient(at 69% 65%, rgb(28, 25, 23) 0, transparent 2%),
     radial-gradient(at 88% 40%, rgb(245, 208, 254) 0, transparent 36%);
+}
+
+.typed {
+  overflow: hidden;
+  width: 0;
+  animation: typing 1s steps(20, end) forwards;
+  animation-delay: 2s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.cursor {
+  background: #d4d4d8;
+  line-height: 20px;
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  width: 10px;
+  height: 2rem;
+}
+
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: #d4d4d8;
+  }
+  100% {
+    background: #222;
+  }
 }

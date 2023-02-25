@@ -7,7 +7,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="mesh2">{children}</body>
+      <body className="bg-zinc-900">{children}</body>
     </html>
   );
 }

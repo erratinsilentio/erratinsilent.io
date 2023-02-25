@@ -1,5 +1,5 @@
-import { PageOne } from "@/components/home/PageOne";
-import { PageTwo } from "@/components/home/PageTwo";
+import { PageOne } from "@/components/home/page1/PageOne";
+import { PageTwo } from "@/components/home/page2/PageTwo";
 
 export default function Home() {
   return (

@@ -9,7 +9,7 @@ export const Text6 = () => {
         My journey began on 1st August 2022.
       </p>
       <p className="text-center italic">
-        Since that day, every spare moment I dedicated to coding.
+        Since that day, every spare moment I have is dedicated to coding.
       </p>
     </>
   );

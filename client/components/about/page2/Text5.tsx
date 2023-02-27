@@ -8,7 +8,8 @@ export const Text5 = () => {
         I was thinking about my future and all the things i wanted to do in life
         - travel, have pets, make music, have a job i love. A job that can fit
         into all of that. And in that pure moment, the thought of being a
-        programmer appeared in my mind so clearly, I took it as a form of sign.{" "}
+        programmer appeared in my mind so clearly, I took it as a form of a
+        sign.{" "}
       </p>
     </>
   );

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 export const Square = () => {
-  const junior = ["J", "u", "n", "i", "o", "r"];
+  const junior = ["C", "r", "e", "a", "t", "i", "v", "e"];
   const frontend = ["F", "r", "o", "n", "t", "e", "n", "d"];
   const developer = ["D", "e", "v", "e", "l", "o", "p", "e", "r"];
 
